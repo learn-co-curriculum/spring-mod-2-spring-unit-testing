@@ -39,7 +39,7 @@ It's important that we keep unit testing independent of the Spring framework for
 Let's use `Spring Itinitializr` to create a basic version of a Spring Boot
 project:
 
-![Basic Spring Initializr](spring-testing-basic-initializr.png)
+![Basic Spring Initializr](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-basic-initializr.png)
 
 The only dependency we need to add is `Spring Web`.
 
@@ -85,11 +85,11 @@ public class HelloController {
 Start your application, and you should now to be able to see the output of your
 endpoint in the console:
 
-![Hello World Console](spring-testing-hello-world-console.png)
+![Hello World Console](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-hello-world-console.png)
 
 Or in the browser:
 
-![Hello World Browser](spring-testing-hello-world-browser.png)
+![Hello World Browser](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-hello-world-browser.png)
 
 If you see an "unauthorized" error message instead of your "Hello World"
 message, you may be running into the configuration issue below. If so, go
@@ -98,7 +98,7 @@ after that.
 
 This is the login form you may see if security is automatically configured:
 
-![Spring Security Simple Authentication](spring-testing-simple-auth.png)
+![Spring Security Simple Authentication](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-simple-auth.png)
 
 ### ! Configuration warning ! Putting Spring Security on hold until the next module
 
@@ -164,7 +164,7 @@ public class HelloController {
 Restart your application, and you should see the following error message when
 you try to access your `/hello` URL:
 
-![URL not found](spring-testing-url-not-found.png)
+![URL not found](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-url-not-found.png)
 
 This validates that our `hello()` no longer defines an endpoint for our Spring
 application.
@@ -172,12 +172,12 @@ application.
 Let's now create a test for our `HelloController` like we would if it wasn't
 part a Spring application:
 
-![Generate Test](spring-testing-generate-test.png)
+![Generate Test](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-generate-test.png)
 
 Let's add "Unit" to the name of this class to differentiate it from the
 integration and acceptance tests we will create later:
 
-![Unit Test Options](spring-test-unit-test-options.png)
+![Unit Test Options](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-test-unit-test-options.png)
 
 In our unit test, we will simply test the return value of the method, just like
 we would for a method that is not part of a Spring application. Note that we
@@ -205,7 +205,7 @@ Run this test and see that it fails as expected - the important part here is to
 make sure the test error is about the messages not matching, versus being about
 any configuration issues:
 
-![Hello Wrong Message](spring-testing-hello-wrong-message.png)
+![Hello Wrong Message](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-hello-wrong-message.png)
 
 Now change the assertion:
 
@@ -228,7 +228,7 @@ class HelloControllerUnitTest {
 
 And see that your test passes:
 
-![Hello test passes ](spring-testing-hello-test-passes.png)
+![Hello test passes ](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-hello-test-passes.png)
 
 This method that returns a hardcoded value is not very valuable and not very
 interesting to test, so let's add a tiny bit of functionality to make it return
