@@ -35,6 +35,7 @@ Let's create a new Spring project to demonstrate testing within the Spring frame
    1. Click "ADD DEPENDENCIES".
    2. Search for "spring web".
    3. Select "Spring Web" from the list.
+   4. Click on "ADD DEPENDENCIES" again and add "Lombok" from the list.
 4. Click on the "Generate" button on the bottom. This will download a zip file
    containing the Spring Boot Project.
 5. Unzip the archive and open it in IntelliJ or a preferred code editor.
