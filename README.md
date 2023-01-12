@@ -177,4 +177,4 @@ cheap to run in our day-to-day development process.
 
 We do, however, want to validate that our functionality is properly integrated
 with the Spring Framework, so that we can expose it as API endpoints for public
-or managed access. Let's look at that in the next section.
+or managed access. We'll look at that in the next couple of lessons.
