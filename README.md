@@ -103,7 +103,7 @@ the `/hello` endpoint:
 ![postman-hello-world](https://curriculum-content.s3.amazonaws.com/spring-mod-2/testing/postman-hello-world.png)
 
 Let's now create a test for our `DemoController` like we would if it wasn't
-part a Spring application:
+part of a Spring application:
 
 ![intellij-generate-test](https://curriculum-content.s3.amazonaws.com/spring-mod-2/testing/intellij-generate-test.png)
 
